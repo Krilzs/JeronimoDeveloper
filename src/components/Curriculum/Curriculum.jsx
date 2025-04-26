@@ -1,5 +1,7 @@
 import argentina from "../../public/argentina.png";
 import usa from "../../public/usa.png";
+import CurriculumPDF from "../../files/Curriculum.pdf";
+import CurriculumENGPDF from "../../files/CurriculumENG.pdf";
 
 
 const Curriculum = () => {
@@ -14,11 +16,11 @@ const Curriculum = () => {
       <div className="flex font-[800] gap-5">
         <span className="flex flex-col justify-center items-center w-full">
           <img className="h-30 object-contain lg:h-70 " src={argentina} alt="Argentina"/>
-          <a href="src/files/Curriculum.pdf" download="JeronimoCoriglianoCV_Es" className="w-full h-10 bg-[#00ffaa] rounded-lg text-center text-black p-2  lg:w-fit">Descargar</a>
+          <a href={CurriculumPDF} download="JeronimoCoriglianoCV_Es" className="w-full h-10 bg-[#00ffaa] rounded-lg text-center text-black p-2  lg:w-fit">Descargar</a>
         </span>
         <span className="flex flex-col justify-center items-center w-full">
           <img className="h-30 object-contain lg:h-70" src={usa} alt="USA"/>
-          <a href="src/files/CurriculumENG.pdf" download="JeronimoCoriglianoCV_En" className="w-full h-10 bg-[#00ffaa] rounded-lg text-center text-black p-2 lg:w-fit">Descargar</a>
+          <a href={CurriculumENGPDF} download="JeronimoCoriglianoCV_En" className="w-full h-10 bg-[#00ffaa] rounded-lg text-center text-black p-2 lg:w-fit">Descargar</a>
         </span>
       </div>
     </div>
