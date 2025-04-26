@@ -1,0 +1,25 @@
+{
+    "proyectos": [
+      {
+        "titulo": "JMBOARD",
+        "descripcion": "Aplicación web tipo Kanban desarrollada con PHP, SQL, HTML, CSS y JS. Permite la gestión de proyectos mediante tableros personalizables con funcionalidades de drag & drop.",
+        "techs": ["php", "sql", "html", "css", "js"],
+        "repositorio": "https://github.com/mLascurain/JMboard-php",
+        "deploy": "https://jerocorigliano.site/"
+      },
+      {
+        "titulo": "MarmolMoro",
+        "descripcion": "E-commerce ficticio construido con React, HTML, CSS y JS. Presenta una interfaz de tienda online para la exploración de productos.",
+        "techs": ["react", "html", "css", "js"],
+        "repositorio": "https://github.com/Krilzs/Marmol-MoroShop",
+        "deploy": "https://marmolandmoroshop.netlify.app/"
+      },
+      {
+        "titulo": "MemoryGame",
+        "descripcion": "Aplicación de juego de memoria interactiva desarrollada con React, JS, HTML y CSS. El objetivo es clickear imágenes únicas para avanzar de nivel.",
+        "techs": ["react", "js", "html", "css"],
+        "repositorio": "https://github.com/Krilzs/Hamster-Memory-Game",
+        "deploy": "https://tmghamsteredition.netlify.app/"
+      }
+    ]
+}

@@ -1,0 +1,38 @@
+#bottom-fade{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 200px; 
+        background: linear-gradient(to top, #111 calc(100% - 200px), transparent);
+        pointer-events: none; 
+}
+
+#position{
+        position: relative;
+        overflow: hidden;
+        width: 0;
+        white-space: nowrap;
+        animation: positionAppear forwards 1.5s steps(13),parpadeo 0.5s infinite step-end alternate;
+        animation-delay: 0.5s;
+}
+
+
+@keyframes positionAppear{
+        from {
+                width: 0;
+        }
+
+        to{
+                width: 14ch;
+        }
+        
+}
+
+@keyframes parpadeo {
+
+        50%{
+                border-color: transparent;
+        }
+        
+}
