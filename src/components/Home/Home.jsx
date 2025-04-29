@@ -1,10 +1,10 @@
 import bVideo from '../../public/bVideo.mp4'
 import './fade.css'
-const Home = ()=>{
+const Home = ({handleLoad})=>{
 
     return(
         <div className='relative flex flex-col items-center overflow-hidden  justify-center w-full h-full  -z-5'>
-            <video className='w-full h-screen object-cover ' id='background' autoPlay muted loop>
+            <video className='w-full h-screen object-cover ' id='background' onLoadedData={ handleLoad()} autoPlay muted loop>
                 <source src={bVideo} type='video/mp4'/>
             </video>
             <div className='absolute flex flex-col items-center justify-center text-white text-5xl bg-transparent rounded-lg p-3 top-[20%] gap-2 lg:top-[25%] lg:w-full lg:h-fit'>
