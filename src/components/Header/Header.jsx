@@ -29,7 +29,7 @@ const Header = () =>{
 
     return (
     <header className ={ `flex flex-col bg-[#111] sticky w-full top-0 items-center justify-between transition-all duration-500 ease-in-out lg:flex-row `} >
-        <div className={`flex items-center justify-between px-4 w-full bg-[#111] transition-all duration-500 ease-in-out z-6`}>
+        <div className={`flex items-center justify-between px-4 w-full bg-[#111] transition-all duration-500 ease-in-out`}>
             <img className='size-20 lg:size-30' src={LogoHeader} alt="Jero Logo" />
             <button onClick={handleMenu} className='lg:hidden'>
                 {button}
