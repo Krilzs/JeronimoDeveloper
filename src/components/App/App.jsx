@@ -11,7 +11,9 @@ const App = () =>{
     const [loading, setLoading] = useState(true)
     
     const handleLoading = () => {
-        setLoading(false)
+        setTimeout(() => {
+            setLoading(false)
+        }, 1000)
     }
     
 
