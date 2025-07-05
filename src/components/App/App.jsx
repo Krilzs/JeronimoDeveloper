@@ -6,7 +6,7 @@ import MyProjects from "../MyProjects/MyProjects";
 import MyStudies from "../MyStudies/MyStudies";
 import Curriculum from "../Curriculum/Curriculum";
 import { useState } from "react";
-import Footer from "../Footer/footer";
+import Footer from "../Footer/Footer";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
